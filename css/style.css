@@ -3,13 +3,35 @@ body {
   text-align:center;
 }
 
+body,html {
+	height:100%;
+}
 #title {
   text-align: left;
 }
 
-.colored-section{
+.colored-section-top{
 background-color: #ddf3f5;
+border-bottom-right-radius:25%;
+border-bottom-left-radius:25%;
 }
+
+.colored-section-bottom{
+background-color: #ddf3f5;
+border-top-right-radius:25%;
+border-top-left-radius: 25%;
+}
+
+/* #parallax-container{
+	background-image: /images/parallax-bg(bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height:100%;
+	width:100%;
+    text-align: left;
+	} */
+
 
 h1{
   font-weight: 700;
@@ -33,9 +55,6 @@ p {
   padding-bottom:5%;
 }
 
-span {
-    color:blue;
-}
 
 /* Containers */
 .container-top{
@@ -44,11 +63,9 @@ span {
 
 .container-mid{
     padding: 3% 15% 7%;
+	margin-top:-5%;
 }
 
-.container-bottom {
-	 padding: 3% 15% 7%;
-	}
 
 .logo-header{
   padding-bottom: 30%;
@@ -57,74 +74,163 @@ span {
 .call-us {
   background-color: #ffdecf;
   text-align: center;
-  margin-bottom: 5%;
-}
-
-/* CTA */
-
-.cta-subscribe{
-margin-top: 60px;
-background-color: transparent;
-position: relative;
-padding: 0;
-border-radius: 4px;
+  margin-bottom:5%;
 
 }
 
-.cta-subscribe-1{
-  margin-top: 60px;
-} 
 
-.email-icon{
-  left:40px;
+.form-control {
+	font-family: "FontAwesome";
+	width:85 %;
+	height: 70px;
 }
 
-
-.form-control{
-  width: 100%;
-  height: 60px;
-  line-height:80px;
+.btn-cta {
+	margin-left:-30px;
 }
 
-
+/* Custom Buttons */
 .custom-btn{
   background: #ddf3f5;
-  color: black;
-  border: 1px solid #00bcd4;
+  color: white;
+  border: 1px solid #ffdecf;
   border-radius: 3px;
   padding: 5px 10px;
   text-transform: uppercase;
-
 }
 
+.custom-btn-web{
+  background: #ff7c3f;
+  color: white;
+  border: 1px solid  #ff7c3f;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.custom-btn-money{
+  background: #2ebf6d;
+  color: white;
+  border: 1px solid #2ebf6d;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.custom-btn-mobile{
+  background: #507afa;
+  color: white;
+  border: 1px solid #507afa;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.custom-btn-accurate{
+  background: #f25c7f;
+  color: white;
+  border: 1px solid #f25c7f;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+
 .container-fluid {
-  background-color: #fccbcb;
-  padding:7%;
+  padding:5%;
 }
 
 .press-img {
 	padding:5%;
 }
 
-	
 .call-us1 {
   background-color: #ffdecf;
  }
- 
- #pricing {
-	padding: 7% 13%;
+
+
+ .pricing {
+	 color:blue;
  }
- 
+ {
+	 color:blue;
+ }
  .card:hover {
 	background-color: #ddf3f5;
  }
- 
+
  .featured-img {
 	 padding : 5%;
-	 text-align: center;
+	 text-align: left;
  }
- 
+
  .section-title-icons{
 	 padding-bottom :5%;
  }
- 
+
+.carousel-item {
+    border-top: 5px solid #1b8bf9;
+}
+
+.web{
+border-color:#ff7c3f;
+}
+.money{
+border-color: #2ebf6d;
+}
+
+.mobile {
+border-color:#507afa;
+}
+
+.accurate {
+border-color:#f25c7f;
+}
+
+
+.carousel{
+	width:50%;
+  background: #ffff;
+  box-shadow: -1px 2px 6px 8px #e4e3e3;
+}
+
+#package-deal{
+	margin-top: 5%;
+	margin-left: 33%;
+}
+
+#pricing-section{
+	margin-bottom:5%;
+}
+
+.pricing-card{
+	margin-left:15%;
+	margin-bottom:5%;
+}
+
+
+.press-img {
+	margin-top:-5%;
+}
+
+.card {
+	width:60%;
+	height:100%;
+  background: #ffff;
+  box-shadow: -1px 2px 6px 8px #e4e3e3;
+}
+
+.call-us-bottom {
+  font-weight: bold;
+  background-color: #ffdecf;
+  color: red;
+}
+.colsecbottom{
+  margin-top: 20px;
+}
+
+/* Mobil Cihazlar icin uygunluk kodu*/
+@media (max-width:991px) {
+  #title .container-fluid{
+    text-align: center;
+  }
