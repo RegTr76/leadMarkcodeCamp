@@ -6,6 +6,7 @@ body {
 body,html {
 	height:100%;
 }
+
 #title {
   text-align: left;
 }
@@ -22,15 +23,14 @@ border-top-right-radius:25%;
 border-top-left-radius: 25%;
 }
 
-/* #parallax-container{
-	background-image: /images/parallax-bg(bg.png);
-	background-repeat: no-repeat;
+.parallax{
+	background-image: url("/images/parallax-bg/bgr.png") no-repat center;
 	background-attachment: fixed;
 	background-size: cover;
 	height:100%;
 	width:100%;
-    text-align: left;
-	} */
+  text-align: left;
+	}
 
 
 h1{
@@ -81,7 +81,7 @@ p {
 
 .form-control {
 	font-family: "FontAwesome";
-	width:85 %;
+	width:85%;
 	height: 70px;
 }
 
@@ -152,9 +152,8 @@ p {
  .pricing {
 	 color:blue;
  }
- {
-	 color:blue;
- }
+
+
  .card:hover {
 	background-color: #ddf3f5;
  }
@@ -189,15 +188,10 @@ border-color:#f25c7f;
 
 
 .carousel{
-	width:50%;
   background: #ffff;
   box-shadow: -1px 2px 6px 8px #e4e3e3;
 }
 
-#package-deal{
-	margin-top: 5%;
-	margin-left: 33%;
-}
 
 #pricing-section{
 	margin-bottom:5%;
@@ -225,6 +219,10 @@ border-color:#f25c7f;
   background-color: #ffdecf;
   color: red;
 }
+
+.call-us-bottom-con{
+  margin-top: 30px;
+}
 .colsecbottom{
   margin-top: 20px;
 }
@@ -234,3 +232,4 @@ border-color:#f25c7f;
   #title .container-fluid{
     text-align: center;
   }
+}
