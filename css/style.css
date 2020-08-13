@@ -3,6 +3,8 @@ body {
   text-align:center;
 }
 
+
+
 #title {
   text-align: left;
 }
@@ -224,7 +226,6 @@ border-color:#f25c7f;
   }
 }
 
-
 .social-media {
   margin-left: 20px;
 }
@@ -236,7 +237,6 @@ border-color:#f25c7f;
 .copyright {
 color:#a4b494;
 }
-
 .color {
   color: blue;
 }
