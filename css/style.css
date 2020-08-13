@@ -224,14 +224,18 @@ border-color:#f25c7f;
   }
 }
 
+
 .social-media {
   margin-left: 20px;
 }
 
 .social-media-icon {
   margin-left: 300px;
+  color:#a4b494;
 }
-
+.copyright {
+color:#a4b494;
+}
 
 .color {
   color: blue;
