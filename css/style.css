@@ -3,10 +3,6 @@ body {
   text-align:center;
 }
 
-body,html {
-	height:100%;
-}
-
 #title {
   text-align: left;
 }
@@ -23,14 +19,6 @@ border-top-right-radius:25%;
 border-top-left-radius: 25%;
 }
 
-.parallax{
-	background-image: url("/images/parallax-bg/bgr.png") no-repat center;
-	background-attachment: fixed;
-	background-size: cover;
-	height:100%;
-	width:100%;
-  text-align: left;
-	}
 
 
 h1{
@@ -80,7 +68,7 @@ p {
 
 
 .form-control {
-	font-family: "FontAwesome";
+	font-family:"FontAwesome";
 	width:85%;
 	height: 70px;
 }
@@ -169,6 +157,7 @@ p {
 
 .carousel-item {
     border-top: 5px solid #1b8bf9;
+
 }
 
 .web{
@@ -190,6 +179,7 @@ border-color:#f25c7f;
 .carousel{
   background: #ffff;
   box-shadow: -1px 2px 6px 8px #e4e3e3;
+  	height:120%;
 }
 
 
@@ -210,8 +200,8 @@ border-color:#f25c7f;
 .card {
 	width:60%;
 	height:100%;
-  background: #ffff;
-  box-shadow: -1px 2px 6px 8px #e4e3e3;
+   background: #ffff;
+   box-shadow: -1px 2px 6px 8px #e4e3e3;
 }
 
 .call-us-bottom {
@@ -232,4 +222,16 @@ border-color:#f25c7f;
   #title .container-fluid{
     text-align: center;
   }
+}
+
+.social-media {
+  margin-left: 20px;
+}
+
+.social-media-icon {
+  margin-left: 300px;
+}
+
+.color {
+  color: blue;
 }
